@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYGdefault{n}{intervalo} \PYGdefault{p}{=} \PYGdefault{p}{[}\PYGdefault{l+m+mf}{0.01}\PYGdefault{p}{:}\PYGdefault{l+m+mf}{0.01}\PYGdefault{p}{:}\PYGdefault{l+m+mf}{0.1}\PYGdefault{p}{];}
+
+	\PYGdefault{n+nb}{plot}\PYGdefault{p}{(}\PYGdefault{n}{intervalo}\PYGdefault{p}{,} \PYGdefault{n+nb}{sin}\PYGdefault{p}{(}\PYGdefault{l+m+mf}{1.}\PYGdefault{o}{/}\PYGdefault{n}{intervalo}\PYGdefault{p}{));}
+	\PYGdefault{n+nb}{print} \PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{dpng} \PYGdefault{n}{some\PYGdefaultZus{}name}\PYGdefault{p}{.}\PYGdefault{n}{png}\PYGdefault{p}{;}
+\end{Verbatim}

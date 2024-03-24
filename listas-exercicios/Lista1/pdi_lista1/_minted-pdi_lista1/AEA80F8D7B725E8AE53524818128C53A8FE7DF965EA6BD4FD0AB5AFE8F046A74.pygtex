@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYGdefault{n}{vet1} \PYGdefault{p}{=} \PYGdefault{p}{[}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{:}\PYGdefault{l+m+mi}{5}\PYGdefault{p}{];}
+	\PYGdefault{n}{vet2} \PYGdefault{p}{=} \PYGdefault{p}{[}\PYGdefault{l+m+mi}{1} \PYGdefault{l+m+mi}{1} \PYGdefault{l+m+mi}{1}\PYGdefault{p}{];}
+
+	\PYGdefault{n}{resultado} \PYGdefault{p}{=} \PYGdefault{p}{(}\PYGdefault{n}{vet2}\PYGdefault{o}{\PYGdefaultZsq{}}\PYGdefault{p}{)} \PYGdefault{o}{*} \PYGdefault{n}{vet1}\PYGdefault{p}{;}
+\end{Verbatim}

@@ -1,0 +1,10 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYGdefault{n}{vet1} \PYGdefault{p}{=} \PYGdefault{p}{[}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{:}\PYGdefault{l+m+mf}{1.5}\PYGdefault{p}{:}\PYGdefault{l+m+mi}{12}\PYGdefault{p}{];}
+	\PYGdefault{n}{somatorio} \PYGdefault{p}{=} \PYGdefault{n+nb}{sum}\PYGdefault{p}{(}\PYGdefault{n}{vet1}\PYGdefault{p}{);}
+
+	\PYGdefault{n}{A3} \PYGdefault{p}{=} \PYGdefault{n}{ln}\PYGdefault{p}{(}\PYGdefault{l+m+mi}{2} \PYGdefault{o}{+} \PYGdefault{n}{somatorio} \PYGdefault{o}{+} \PYGdefault{n}{somatorio} \PYGdefaultZca{} \PYGdefault{l+m+mi}{2}\PYGdefault{p}{);}
+
+	\PYGdefault{n}{B3} \PYGdefault{p}{=} \PYGdefault{n+nb}{exp}\PYGdefault{p}{(}\PYGdefault{n}{somatorio} \PYGdefault{o}{*} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{1} \PYGdefault{o}{+} \PYGdefault{n+nb}{cos}\PYGdefault{p}{(}\PYGdefault{l+m+mi}{3} \PYGdefault{o}{*} \PYGdefault{n}{somatorio}\PYGdefault{p}{)));}
+
+	\PYGdefault{n}{C3} \PYGdefault{p}{=} \PYGdefault{n+nb}{cos}\PYGdefault{p}{(}\PYGdefault{n}{somatorio}\PYGdefault{p}{)}\PYGdefault{o}{.\PYGdefaultZca{}}\PYGdefault{l+m+mi}{2} \PYGdefault{o}{+} \PYGdefault{n+nb}{sin}\PYGdefault{p}{(}\PYGdefault{n}{somatorio}\PYGdefault{p}{)}\PYGdefault{o}{.\PYGdefaultZca{}}\PYGdefault{l+m+mi}{2}\PYGdefault{p}{;}
+\end{Verbatim}

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: face_detc-ref_teor.aux
+The style file: sbc.bst
+Database file #1: example.bib
+You've used 7 entries,
+            1935 wiz_defined-function locations,
+            524 strings with 5109 characters,
+and the built_in function-call counts, 3141 in all, are:
+= -- 325
+> -- 110
+< -- 8
++ -- 36
+- -- 36
+* -- 256
+:= -- 519
+add.period$ -- 22
+call.type$ -- 7
+change.case$ -- 53
+chr.to.int$ -- 7
+cite$ -- 7
+duplicate$ -- 122
+empty$ -- 221
+format.name$ -- 51
+if$ -- 634
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 6
+newline$ -- 39
+num.names$ -- 21
+pop$ -- 42
+preamble$ -- 1
+purify$ -- 53
+quote$ -- 0
+skip$ -- 103
+stack$ -- 0
+substring$ -- 264
+swap$ -- 29
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 42
+warning$ -- 0
+while$ -- 28
+width$ -- 0
+write$ -- 95

@@ -1,0 +1,1 @@
+vector = [0.01:0.01:0.1]plot(sin(1./vector))

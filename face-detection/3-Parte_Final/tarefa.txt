@@ -1,0 +1,11 @@
+
+3. Trabalho Final: o artigo final deve conter:
+
+    Titulo: deve ser curto, informar exatamento o conteúdo do trabalho
+    Resumo: deve ser o mais breve possível, conter os principais objetivos e escopo do trabalho, motivação e importância, principal resulta ou contribuição
+    abstract: resumo traduzido para o inglês
+    Introdução
+    Desenvolvimento
+    Resultados: apresentar os resultados (tempo passado) dos procedimentos descritos nos métodos e apresentar as evidências, que são os dados (na forma de texto, tabelas ou figuras), que suportam os resultados.
+    conclusão: são apresentadas as conclusões e as descobertas do texto, evidenciando com clareza e objetividade as deduções extraídas dos resultados obtidos ou apontadas ao longo da discussão do assunto.
+    Referências:

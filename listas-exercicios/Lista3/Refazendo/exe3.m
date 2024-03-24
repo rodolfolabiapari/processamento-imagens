@@ -1,0 +1,1 @@
+img = imread("peppers_gray512.jpg");[lin col] = size(img);[x y] = meshgrid(1:col, 1:lin);nCoord = [x(:)' + 20 * sin(2 * pi * y(:)'./80);           y(:)';];nX = reshape(nCoord(1, :), lin, col);nY = reshape(nCoord(2, :), lin, col);out = interp2(x, y, double(img), nX, nY);out = uint8(out);imshow(out);

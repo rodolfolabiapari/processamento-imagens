@@ -1,0 +1,1 @@
+img = imread("lenna_gray512.jpg");[lin col] = size(img);proporcao = 4;nimg = img(1:proporcao:lin, 1:proporcao:col);imshow(nimg); figure;for i = 1:proporcao:lin  for j = 1:proporcao:col    out(i:i+3,j:j+3) = nimg(ceil(i/4), ceil(j/4));  endfor;endfor;imshow(out);

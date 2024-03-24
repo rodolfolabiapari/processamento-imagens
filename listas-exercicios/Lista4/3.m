@@ -1,0 +1,1 @@
+function nimg = ee(img)  nimg = img;  out = [];    [lin, col] = size(img);    for i = 1:lin    for j = 1:col      if (i == 1 || j == 1)        out(i, j) = 0;      else         out(i,j) = img(i-1, j-1);      endif    endfor  endfor    out = img - out;    nimg = [nimg out];    figure; imshow(nimg);  endfunction

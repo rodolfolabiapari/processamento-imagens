@@ -1,0 +1,15 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {brazil}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Apresenta\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Justificativa}{5}{0}{1}
+\beamer@sectionintoc {2}{Referencial Te\IeC {\'o}rico}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Rede Neural Convolucional}{8}{0}{2}
+\beamer@sectionintoc {3}{Desenvolvimento}{14}{0}{3}
+\beamer@subsectionintoc {3}{1}{Data Set}{15}{0}{3}
+\beamer@subsectionintoc {3}{2}{Treino, Teste e Valida\IeC {\c c}\IeC {\~a}o}{18}{0}{3}
+\beamer@subsectionintoc {3}{3}{Configura\IeC {\c c}\IeC {\~o}es da API neon}{20}{0}{3}
+\beamer@sectionintoc {4}{Experimentos}{23}{0}{4}
+\beamer@sectionintoc {5}{Resultados}{25}{0}{5}
+\beamer@sectionintoc {6}{Conclus\IeC {\~a}o}{30}{0}{6}
+\beamer@subsectionintoc {6}{1}{Trabalhos Futuros}{32}{0}{6}

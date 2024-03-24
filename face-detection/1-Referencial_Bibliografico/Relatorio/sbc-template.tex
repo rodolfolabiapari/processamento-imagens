@@ -1,0 +1,58 @@
+% !TeX spellcheck = pt_BR
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+
+\usepackage{graphicx,url}
+
+\usepackage[brazil]{babel}   
+\usepackage{amsmath}
+%\usepackage[latin1]{inputenc}  
+\usepackage[utf8]{inputenc}  
+% UTF-8 encoding is recommended by ShareLaTex
+
+     
+\sloppy
+
+\title{Disciplina de Processamento Digital de Imagem \\ Trabalho 1 - Referencial Bibliográfico sobre \textit{Face Detection}}
+
+\author{Rodolfo Labiapari Mansur Guimarães}
+
+
+\address{Departamento de Computação -- Universidade Federal de Ouro Preto
+  (UFOP)\\
+  34.000-000 -- Ouro Preto -- OP -- Brasil
+  \email{rodolfolabiapari@decom.ufop.br}
+}
+
+\begin{document} 
+
+\maketitle
+
+\begin{resumo} 
+  Deverá ser feita uma revisão crítica de pelo menos 5 artigos, descrevendo de forma geral a proposta apresentada nos diferentes artigos. 
+  O relatório deve conter (no máximo uma ou duas páginas)
+  a) Um resumo breve do artigo, o qual deve conter uma visão geral do que foi feito, quais foram os métodos utilizados, assim como os respectivos resultados
+  b) Uma crítica do artigo, ou seja, deve indicar quais problemas não foram endereçados na proposta apresentada pelos autores, assim como os méritos do trabalho.
+\end{resumo}
+
+\section{Estudo Bibliográfico}
+
+Zhang em seu trabalho, \textit{A survey of recent advances in face detection} \cite{zhang2010survey}, e Hjelmaas, \textit{Face Detection: A Survey} \cite{hjelmaas2001face}, realizaram um estudo qualificativo para as várias abordagens de Detecção de Face existente atualmente. Citam que Detecção de Face é um assunto importante pelo fato de ser o primeiro passo para Sistemas de Reconhecimento de Face usado em inúmeras aplicações, justificando a necessidade de pesquisa. Explicam que o tema Detecção de Face possui várias categorias sendo estas o Processamento em: a) Vídeo ou b) Imagem e subníveis ainda mais baixos como cor, posição, rotação, oclusão e muitas outras focos de pesquisa. 
+
+Sakai \cite{sakai1972computer} foi um dos primeiros a pesquisar algoritmos que realizam a detecção de faces. Na suas pesquisas, as instâncias deveriam ser simplistas e padronizadas sendo a face posta de forma frontal, sem obstrução de elementos do rosto e sem fundos complexos na imagem. Qualquer variação deste cenário resultaria numa execução sem resultados confiantes. Seu algoritmo se baseia de uma árvore de decisão onde verifica, da forma mais geral pra mais específica, se o quadro que está analisando é formado por elementos de um rosto humano. Assim, a cada nível avançado, mais certo é de ser um rosto humano. Quando acontece alguma negação de determinado nível, realiza-se outras tentativas consecutivas a fim de identificar se realmente o item é uma face, pois realizando outros testes consecutivos permite-se identificar se a face está em alguma posição diferente do modo perfil frontal esperado.
+
+Atualmente, existe vários métodos de detecção/localização de faces em imagens em escala de cinza. Os métodos atuais são baseados em: Conhecimento, Características Invariantes, Casamento de Formatos e Aparência e eles serão abordados brevemente a seguir.
+
+Métodos baseado em Conhecimento utilizam abordagem \textit{top-down} e são classificados como métodos simples e restritos. Yang \cite{yang1994human} desenvolveu pesquisas onde é realizado processos de alteração da resolução a procura de pontos interessantes da figura. Após localizado determinado ponto de interesse é feito o histograma dos pontos da imagem a procura de padrões conhecidos como de olhos, nariz e boca de acordo com a tonalidade da imagem pois já sabe-se pela literatura que olhos, nariz, orelhas e boca possuem tonalidade diferente da pele do rosto como um todo.
+
+Abordagem em Características Invariantes procura encontrar relações padronizadas como olhos, nariz, boca, orelhas, textura, etc. Yow \cite{yow1996probabilistic} \cite{yow1997feature} utiliza filtros para encontrar regiões relevantes e, em seguida, tentar encontrar formas conhecidas de faces e identificá-la na foto.
+
+Métodos de Casamento de \textit{Template} é um método que utiliza máscaras que tentam realizar combinações do quadro analisado com o modelo de resposta requisitada. Selecionado um quadro, é feito comparações com a luminosidade do local avaliado visando sempre o modelo e ao final classificando se este ponto interessante é de fato uma face. Essa abordagem é simples, mas requer que o algoritmo tenha modelos pré-definidos/treinados o que dificulta a diversidade do mundo real de dados e situações.
+
+E a última categoria de método de detecção em escala de cinza é o de Aparência. Geralmente utiliza-se de Rede Neurais como o Perceptron de múltiplas camadas, e outros procedimentos para categorizar uma face.
+
+\bibliographystyle{sbc}
+\bibliography{sbc-template}
+
+\end{document}

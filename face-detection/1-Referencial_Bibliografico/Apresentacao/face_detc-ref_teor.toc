@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {brazil}
+\beamer@sectionintoc {1}{Estudo Bibliogr\IeC {\'a}fico}{2}{0}{1}
+\beamer@sectionintoc {2}{Surveys}{4}{0}{2}
+\beamer@sectionintoc {3}{O Pioneiro}{7}{0}{3}
+\beamer@sectionintoc {4}{Categoriza\IeC {\c c}\IeC {\~a}o do Problema}{9}{0}{4}
+\beamer@subsectionintoc {4}{1}{M\IeC {\'e}todos baseado em Conhecimento}{12}{0}{4}
+\beamer@subsectionintoc {4}{2}{Abordagem em Caracter\IeC {\'\i }sticas Invariantes}{17}{0}{4}
+\beamer@subsectionintoc {4}{3}{M\IeC {\'e}todos de Casamento de Template}{22}{0}{4}
+\beamer@subsectionintoc {4}{4}{Apar\IeC {\^e}ncia}{27}{0}{4}

@@ -1,0 +1,1 @@
+img = imread("lenna_rgb512.jpg");[lin col] = size(img);out = zeros(lin, col, 3);for j = 1:col  out(:, col + 1 - j, :) = img(:, j, :);endfor;

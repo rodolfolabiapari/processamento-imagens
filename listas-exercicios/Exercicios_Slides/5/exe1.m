@@ -1,0 +1,1 @@
+img = imread("arquivo.jpg");nimg = img(:,:,1);nimg(:, :, 2) = (img(:,:,1) + img(:,:,2) + img(:,:,3)) ./3;nimg(:, :, 3) = img(:,:,3);imshow(nimg);

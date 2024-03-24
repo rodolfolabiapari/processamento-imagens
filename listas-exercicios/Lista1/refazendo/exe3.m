@@ -1,0 +1,1 @@
+t = [2.^(0.2:0.2:2)]a = log(2 + t + t.^2)b = exp(t .* (1 + cos(3 .* t)))c = cos(cos(t)) + sin(sin(t))

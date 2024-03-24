@@ -1,0 +1,1 @@
+img = imread("lenna_rgb512.jpg");[lin col] = size(img);imgbw = img(:, :, 1) * 0.299 + img(:, :, 2) * 0.587  + img(:, :, 3) * 0.114;out = uint8(imgbw);imshow(out);

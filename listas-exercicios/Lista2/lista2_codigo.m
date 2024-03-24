@@ -1,0 +1,1 @@
+imagem_original = imread("pumba.jpg");propriedade_imagem = size(imagem_original);exe1 = imagem_original;imshow(imagem_original);for i = 1 : 1  exe1(: , :, 1) = (0.299 * exe1(:, :, 1)) + (0.587 * exe1(:, :, 2)) + (0.114 * exe1(:, :, 3));  exe1(:, :, 2) = exe1(:, :, 1);  exe1(:, :, 3) = exe1(:, :, 1);endimshow(exe1);

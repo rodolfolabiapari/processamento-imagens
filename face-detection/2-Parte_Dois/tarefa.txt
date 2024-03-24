@@ -1,0 +1,12 @@
+2. Trabalho Parcial
+
+Nesta segunda etapa devem ser apresentadas a introdução e o desenvolvimento do modelo proposto
+
+    Introdução: ela deve introducir ao leitor ao tema do estudo e, fundamentalmente, dar ao leitor as razões que justificam o objetivo do estudo.
+        a descrição do problema, a justificativa, assim como a uma breve revisão bibliográfica.
+        a solução proposta deve ser descrita brevemente, resaltando as diferenças e vantagens frente aos métodos da literatura
+        o último parrafo deve conter um resumo das seções do artigo (escrever esse párrafo no só na versão final).
+    Desenvolvimento: nesta seção é desenvolvido o modelo proposto, ele deve ser explicado em detalhes
+        Deve conter a fundamentação teórica
+        Use figuras para explicar o funcionamento
+        Comece pelo modelo mais genérico e desenvolva cada parte em detalhes nas sub-seções posteriores

@@ -1,0 +1,1 @@
+img = imread("lennaCompress.png");[lin col] = size(img);mhist = zeros(1, 256);for i = 1:lin  for j = 1:col    mhist(img(i,j) + 1) = mhist(img(i,j) + 1) + 1;  endfor;endfor;plot(mhist);% Am = 0.5;E = 10;out = 1 ./ (1 + (m./img(:,:)).^E);out = uint16(out);%imshow(out);

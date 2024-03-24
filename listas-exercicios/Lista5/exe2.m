@@ -1,0 +1,1 @@
+m = imread("matches.png");[lin, col] = size(m);nimg = [];noise  = GaussianNoise(m);mask = GaussianMask(3, 3);for i = 2 : lin - 1  for j = 2 : col - 1        mat = m(i - 1:i + 1, j - 1:j + 1) .* mask;        nimg(i, j) = sum(sum(mat));  endforendfornimg = uint8(nimg);figure; imshow(m);figure; imshow(nimg);

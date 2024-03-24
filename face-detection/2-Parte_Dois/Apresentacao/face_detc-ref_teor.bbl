@@ -1,0 +1,46 @@
+\begin{thebibliography}{}
+
+\bibitem[Bengio 2009]{Bengio-2009}
+Bengio, Y. (2009).
+\newblock Learning deep architectures for {AI}.
+\newblock {\em Foundations and Trends in Machine Learning}, 2(1):1--127.
+\newblock Also published as a book. Now Publishers, 2009.
+
+\bibitem[Giusti et~al. 2013]{Giusti2013}
+Giusti, A., Cireşan, D.~C., Masci, J., Gambardella, L.~M., and Schmidhuber, J.
+  (2013).
+\newblock {Fast image scanning with deep max-pooling convolutional neural
+  networks}.
+\newblock In {\em 2013 IEEE International Conference on Image Processing, ICIP
+  2013 - Proceedings}, pages 4034--4038.
+
+\bibitem[Glorot and Bengio 2010]{Glorot2010}
+Glorot, X. and Bengio, Y. (2010).
+\newblock {Understanding the difficulty of training deep feedforward neural
+  networks}.
+\newblock {\em Proceedings of the 13th International Conference on Artificial
+  Intelligence and Statistics (AISTATS)}, 9:249--256.
+
+\bibitem[Haoxiang and Lin 2015]{Haoxiang2015}
+Haoxiang, L. and Lin (2015).
+\newblock {A Convolutional Neural Network Approach for Face Identification}.
+\newblock {\em IEEE Conference on Computer Vision and Pattern Recognition},
+  pages 5325--5334.
+
+\bibitem[Jain and Learned-Miller 2010]{fddbTech}
+Jain, V. and Learned-Miller, E. (2010).
+\newblock Fddb: A benchmark for face detection in unconstrained settings.
+\newblock Technical Report UM-CS-2010-009, University of Massachusetts,
+  Amherst.
+
+\bibitem[LeCun et~al. 1998]{LeCun1998}
+LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. (1998).
+\newblock {Gradient-based learning applied to document recognition}.
+\newblock {\em Proceedings of the IEEE}, 86(11):2278--2323.
+
+\bibitem[McCulloch and Pitts 1943]{McCulloch1943}
+McCulloch, W.~S. and Pitts, W. (1943).
+\newblock {A logical calculus of the ideas immanent in nervous activity}.
+\newblock {\em The Bulletin of Mathematical Biophysics}, 5(4):115--133.
+
+\end{thebibliography}

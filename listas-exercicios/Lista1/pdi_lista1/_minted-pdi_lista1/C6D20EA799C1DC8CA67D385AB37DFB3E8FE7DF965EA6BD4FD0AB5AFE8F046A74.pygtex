@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYGdefault{n}{vetor} \PYGdefault{p}{=} \PYGdefault{p}{[}\PYGdefault{l+m+mi}{1}\PYGdefault{p}{:}\PYGdefault{l+m+mi}{3}\PYGdefault{p}{:}\PYGdefault{l+m+mi}{300}\PYGdefault{p}{];}
+
+	\PYGdefault{n}{media\PYGdefaultZus{}geometrica}  \PYGdefault{p}{=} \PYGdefault{p}{((}\PYGdefault{n+nb}{prod}\PYGdefault{p}{(}\PYGdefault{n}{vetor}\PYGdefault{p}{))} \PYGdefaultZca{} \PYGdefault{p}{(}\PYGdefault{l+m+mi}{1} \PYGdefault{o}{/} \PYGdefault{n+nb}{length}\PYGdefault{p}{(}\PYGdefault{n}{vetor}\PYGdefault{p}{)))}
+	\PYGdefault{n}{media\PYGdefaultZus{}aritimetica} \PYGdefault{p}{=} \PYGdefault{n+nb}{sum}\PYGdefault{p}{(}\PYGdefault{n}{vetor}\PYGdefault{p}{)} \PYGdefault{o}{/} \PYGdefault{n+nb}{size}\PYGdefault{p}{(}\PYGdefault{n}{vetor}\PYGdefault{p}{,} \PYGdefault{l+m+mi}{2}\PYGdefault{p}{)}
+\end{Verbatim}

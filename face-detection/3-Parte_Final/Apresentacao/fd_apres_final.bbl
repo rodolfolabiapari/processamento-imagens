@@ -1,0 +1,41 @@
+\begin{thebibliography}{}
+
+\bibitem[Garcia and Delakis 2004]{Garcia2004}
+Garcia, C. and Delakis, M. (2004).
+\newblock {Convolutional face finder: A neural architecture for fast and robust
+  face detection}.
+\newblock {\em IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  26(11):1408--1423.
+
+\bibitem[Giusti et~al. 2013]{Giusti2013}
+Giusti, A., Cireşan, D.~C., Masci, J., Gambardella, L.~M., and Schmidhuber, J.
+  (2013).
+\newblock {Fast image scanning with deep max-pooling convolutional neural
+  networks}.
+\newblock In {\em 2013 IEEE International Conference on Image Processing, ICIP
+  2013 - Proceedings}, pages 4034--4038.
+
+\bibitem[Haoxiang and Lin 2015]{Haoxiang2015}
+Haoxiang, L. and Lin (2015).
+\newblock {A Convolutional Neural Network Approach for Face Identification}.
+\newblock {\em IEEE Conference on Computer Vision and Pattern Recognition},
+  pages 5325--5334.
+
+\bibitem[{Le Cun Jackel, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W.
+  Hubbard} et~al. 1990]{LeCun1990H}
+{Le Cun Jackel, B. Boser, J. S. Denker, D. Henderson, R. E. Howard, W.
+  Hubbard}, L.~D., Cun, B.~L., Denker, J., and Henderson, D. (1990).
+\newblock {Handwritten Digit Recognition with a Back-Propagation Network}.
+\newblock {\em Advances in Neural Information Processing Systems}, pages
+  396--404.
+
+\bibitem[LeCun 1989]{LeCun1989}
+LeCun, Y. (1989).
+\newblock {Generalization and network design strategies}.
+
+\bibitem[LeCun et~al. 1998]{LeCun1998G}
+LeCun, Y., Bottou, L., Bengio, Y., and Haffner, P. (1998).
+\newblock {Gradient-based learning applied to document recognition}.
+\newblock {\em Proceedings of the IEEE}, 86(11):2278--2323.
+
+\end{thebibliography}

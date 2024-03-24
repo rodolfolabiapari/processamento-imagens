@@ -1,0 +1,35 @@
+\begin{thebibliography}{}
+
+\bibitem[Hjelm{\aa}s and Low 2001]{hjelmaas2001face}
+Hjelm{\aa}s, E. and Low, B.~K. (2001).
+\newblock Face detection: A survey.
+\newblock {\em Computer vision and image understanding}, 83(3):236--274.
+
+\bibitem[Sakai et~al. 1972]{sakai1972computer}
+Sakai, T., Nagao, M., and Kanade, T. (1972).
+\newblock {\em Computer analysis and classification of photographs of human
+  faces}.
+\newblock Kyoto University.
+
+\bibitem[Yang and Huang 1994]{yang1994human}
+Yang, G. and Huang, T.~S. (1994).
+\newblock Human face detection in a complex background.
+\newblock {\em Pattern recognition}, 27(1):53--63.
+
+\bibitem[Yow and Cipolla 1996]{yow1996probabilistic}
+Yow, K.~C. and Cipolla, R. (1996).
+\newblock A probabilistic framework for perceptual grouping of features for
+  human face detection.
+\newblock In {\em Automatic Face and Gesture Recognition, 1996., Proceedings of
+  the Second International Conference on}, pages 16--21. IEEE.
+
+\bibitem[Yow and Cipolla 1997]{yow1997feature}
+Yow, K.~C. and Cipolla, R. (1997).
+\newblock Feature-based human face detection.
+\newblock {\em Image and vision computing}, 15(9):713--735.
+
+\bibitem[Zhang and Zhang 2010]{zhang2010survey}
+Zhang, C. and Zhang, Z. (2010).
+\newblock A survey of recent advances in face detection.
+
+\end{thebibliography}

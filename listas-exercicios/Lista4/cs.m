@@ -1,0 +1,1 @@
+function nimg = cs (img, m, E)  nimg = img;    nimg = 1 ./ (1 + (m ./ img(: , :)).^E);    nimg = uint8(nimg);    figure; imshow(nimg);  endfunction

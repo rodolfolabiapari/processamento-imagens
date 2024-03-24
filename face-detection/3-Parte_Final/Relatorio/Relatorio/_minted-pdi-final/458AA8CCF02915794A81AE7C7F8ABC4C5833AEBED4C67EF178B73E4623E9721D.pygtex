@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+git clone \PYG{l+s+se}{\PYGZbs{}}
+https://github.com/NervanaSystems/neon.git
+\PYG{n+nb}{cd} neon \PYG{o}{\PYGZam{}\PYGZam{}} make sysinstall
+\end{Verbatim}

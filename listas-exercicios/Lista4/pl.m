@@ -1,0 +1,1 @@
+function nimg = pl (img, c, gamma)  nimg = img;    nimg = c .* (img(: , :).^gamma);    nimg = uint8(nimg);    figure; imshow(nimg);  endfunction
